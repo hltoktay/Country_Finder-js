@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Countries Data</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <span class="navbar-brand">Get Country Information</span>
+      </nav>
+    <br>
+
+  <section>
+    <div class="container">
+      <h3>Search Country Detail</h3>
+      <br>
+      <div>
+        <div>
+          <div>
+
+            <form class="form-group mx-sm-3 mb-2">
+              <div>
+                <input type="text" placeholder="Country Name" id="countryName" class="form-control col-7">
+                <br>
+                <input type="submit" value="Get Country Data" id="getCountry" class="btn btn-outline-dark">
+              </div>
+            </form>
+
+            <div>
+                <div class="output">
+                  <div class="output_item">
+                    <p class="output_title">Country Name : </p>
+                    <p class="country_name"></p>
+                  </div>
+    
+                  <div class="output_item">
+                    <p class="output_title">Capital City : </p>
+                    <p class="country_capital"></p>
+                  </div>
+    
+                  <div class="output_item">
+                    <p class="output_title">Language : </p>
+                    <p class="country_language"></p>
+                  </div>
+    
+                  <div class="output_item">
+                    <p class="output_title">Currencies : </p>
+                    <p class="country_currency"></p>
+                  </div>
+    
+                </div>
+
+          </div>
+
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

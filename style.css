@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.output {
+  padding: 20px 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.output_item {
+  margin: 5px;
+  font-size: 18px;
+  display: flex;
+}
+
+.output .value {
+  color: #28292b;
+  margin-left: 15px;
+}
